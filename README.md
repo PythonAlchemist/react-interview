@@ -50,9 +50,6 @@ geometry  location:<br />
 ### Fetch API
 http://localhost:12059/react-interview/getLoanData
 
-Kaggle Dataset
-https://www.kaggle.com/zhijinzhai/loandata/downloads/loan-data.zip/1
-
 ### Example Data
 Loan_ID,loan_status,Principal,terms,effective_date,due_date,paid_off_time,past_due_days,age,education,Gender<br />
 xqd20166231,PAIDOFF,1000,30,9/8/2016,10/7/2016,9/14/2016 19:31,,45,High School or Below,male<br />
@@ -94,9 +91,6 @@ Gender<br />
 
 ### Fetch API
 http://localhost:12059/react-interview/getEarthQuakes
-
-Kaggle Dataset
-https://www.kaggle.com/caganseval/earthquake/downloads/earthquake.zip/4
 
 ### Example Data
 id,date,time,lat,long,country,city,area,direction,dist,depth,xm,md,richter,mw,ms,mb<br /><br />

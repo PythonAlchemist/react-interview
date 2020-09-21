@@ -1,11 +1,7 @@
-import express from 'express';
-require('dotenv').config({path:'.env'});
+const express = require('express');
 const app = express();
-
 const fs = require('fs');
-const csv = require('csv-parser');
-
-import * as locations from "../data/stores.json";
+const locations = require("../data/stores.json");
 
 function getLocations(req) {
 
@@ -44,4 +40,4 @@ app.get('/react-interview/getLowesStores', (req, res) => res.send(getLocations(r
 app.get('/react-interview/getEarthQuakes', (req, res) => res.send(getEarth(req)));
 app.get('/react-interview/getLoanData', (req, res) => res.send(getLoans(req)));
 
-app.listen(process.env.PORT);
+app.listen(12059);
